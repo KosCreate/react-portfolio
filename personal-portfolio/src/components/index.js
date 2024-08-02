@@ -1,7 +1,9 @@
 import NavBar from "./NavBar";
+import SkillsSection from "./SkillsSection";
 import Hero from "./Hero";
 
 export {
     NavBar,
-    Hero,
+    SkillsSection,
+    Hero
 }

@@ -74,6 +74,18 @@ export const IDEs = [
     },
 ]
 
+export const gameEngines = [ 
+    {
+        content:"Unity Engine"
+    },
+    {
+        content:"Godot Engine"
+    },
+    {
+        content:"Unreal Engine"
+    },
+]
+
 export const versionControl = [
     {
         content: "GitHub"
@@ -91,3 +103,5 @@ export const toolsAndServices = [
         content: "Amazon Web Services (AWS)"
     }
 ]
+
+export const aboutMe = "Demonstrating a strong proficiency in programming, I was quickly allowed to held leadership roles since my college years, leading development teams with success. Thriving under pressure, I showcase effective multitasking abilities and adapt quickly to diverse workflows, tools, and technological landscapes. As a rapid learner, I efficiently acquire new programming concepts and adeptly navigate challenges. Furthermore, my leadership skills contribute to fostering collaborative work environments, while my passion for clear communication and flexibility enhances the integration of innovative ideas into programming projects."
