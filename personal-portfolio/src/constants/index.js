@@ -1,4 +1,6 @@
-import { github_icon, youtube_icon, linkedin_icon } from "../assets"
+import { github_icon, youtube_icon, linkedin_icon, jetbrains_icon, vs_code_icon, visual_studio_icon, aws_icon } from "../assets"
+import { leadership_icon, under_pressure_icon, multitasking_icon, learner_icon, communication_icon } from "../assets"
+import { c_plus_logo, c_sharp_logo, python_logo, js_logo, godot_icon, threejs_logo, net_logo, asp_net_logo, unity_icon, unreal_engine_icon } from "../assets"
 
 export const businessLinks = [ {
         name: "GitHub",
@@ -19,79 +21,99 @@ export const businessLinks = [ {
 
 export const skills = [
     {
-        content:"Leadership and Team Management"
+        content:"Leadership and Team Management",
+        icon:leadership_icon
     },
     {
-        content:"Thrives Under Pressure"
+        content:"Thrives Under Pressure",
+        icon:under_pressure_icon
     },
     {
-        content:"Effective Multitasking"
+        content:"Effective Multitasking",
+        icon:multitasking_icon
     },
     {
-        content:"Quick Learner"
+        content:"Quick Learner",
+        icon:learner_icon
     },
     {
-        content:"Strong Communication Skills"
+        content:"Strong Communication Skills",
+        icon:communication_icon
     },
 ]
 
 export const languagesAndFrameworks = [
     {
-        content:"C++"
+        content:"C++",
+        icon:c_plus_logo
     },
     {
-        content:"C#"
+        content:"C#",
+        icon:c_sharp_logo
     },
     {
-        content:"Python"
+        content:"Python",
+        icon:python_logo
     },
     {
-        content:"Javascript"
+        content:"Javascript",
+        icon:js_logo
     },
     {
-        content:"GDScript"
+        content:"GDScript",
+        icon:godot_icon
     },
     {
-        content:"Three.js"
+        content:"Three.js",
+        icon:threejs_logo
     },
     {
-        content:".NET"
+        content:".NET",
+        icon:net_logo
     },
     {
-        content:"ASP .NET Core"
+        content:"ASP .NET Core",
+        icon:net_logo
     },
 ]
 
 export const IDEs = [ 
     {
-        content:"Jetbrains Rider"
+        content:"Jetbrains Rider",
+        icon:jetbrains_icon
     },
     {
-        content:"VS Code"
+        content:"VS Code",
+        icon:vs_code_icon
     },
     {
-        content:"Visual Studio"
+        content:"Visual Studio",
+        icon:visual_studio_icon
     },
 ]
 
 export const gameEngines = [ 
     {
-        content:"Unity Engine"
+        content:"Unity Engine",
+        icon:unity_icon
     },
     {
-        content:"Godot Engine"
+        content:"Godot Engine",
+        icon:godot_icon
     },
     {
-        content:"Unreal Engine"
+        content:"Unreal Engine",
+        icon:unreal_engine_icon
     },
 ]
 
 export const versionControl = [
     {
-        content: "GitHub"
+        content: "GitHub",
+        icon:github_icon
     },
     {
-        content: "Plastic SCM"
+        content: "Plastic SCM",
     },
     {
         content: "Fork"
@@ -100,7 +122,8 @@ export const versionControl = [
 
 export const toolsAndServices = [
     {
-        content: "Amazon Web Services (AWS)"
+        content: "Amazon Web Services (AWS)",
+        icon:aws_icon
     }
 ]
 

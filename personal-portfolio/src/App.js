@@ -8,7 +8,7 @@ const App = () => (
         <NavBar />
       </div>
     </div>
-    <div className={`bg-slate-950 ${styles.flexStart}`}>
+    <div className={`bg-slate-950 ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
         <SkillsSection />
