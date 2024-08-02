@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.767f50d9.css",
-    "main.js": "/react-portfolio/static/js/main.c2dfb8c3.js",
+    "main.css": "/react-portfolio/static/css/main.f9eba3e7.css",
+    "main.js": "/react-portfolio/static/js/main.2ef533ec.js",
     "static/js/453.b21437c2.chunk.js": "/react-portfolio/static/js/453.b21437c2.chunk.js",
     "static/media/godot_icon.png": "/react-portfolio/static/media/godot_icon.d043fb45d5b460564c5a.png",
     "static/media/unreal_engine_icon.png": "/react-portfolio/static/media/unreal_engine_icon.6265734356500638d3f3.png",
     "static/media/portfolio_picture.png": "/react-portfolio/static/media/portfolio_picture.a5c74f4824246e7e6ba6.png",
     "index.html": "/react-portfolio/index.html",
-    "main.767f50d9.css.map": "/react-portfolio/static/css/main.767f50d9.css.map",
-    "main.c2dfb8c3.js.map": "/react-portfolio/static/js/main.c2dfb8c3.js.map",
+    "main.f9eba3e7.css.map": "/react-portfolio/static/css/main.f9eba3e7.css.map",
+    "main.2ef533ec.js.map": "/react-portfolio/static/js/main.2ef533ec.js.map",
     "453.b21437c2.chunk.js.map": "/react-portfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.767f50d9.css",
-    "static/js/main.c2dfb8c3.js"
+    "static/css/main.f9eba3e7.css",
+    "static/js/main.2ef533ec.js"
   ]
 }
