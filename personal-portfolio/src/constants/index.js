@@ -2,6 +2,11 @@ import { github_icon, youtube_icon, linkedin_icon, jetbrains_icon, vs_code_icon,
 import { leadership_icon, under_pressure_icon, multitasking_icon, learner_icon, communication_icon } from "../assets"
 import { c_plus_logo, c_sharp_logo, python_logo, js_logo, godot_icon, threejs_logo, net_logo, asp_net_logo, unity_icon, unreal_engine_icon } from "../assets"
 
+export const personalInfo = {
+    name:"Kostas Athanasiou",
+    field:"Software Engineer | .Net Framework & Games Programmer"
+}
+
 export const businessLinks = [ {
         name: "GitHub",
         icon: github_icon,

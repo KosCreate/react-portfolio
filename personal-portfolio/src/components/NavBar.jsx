@@ -1,4 +1,4 @@
-import { businessLinks } from "../constants";
+import { businessLinks, personalInfo } from "../constants";
 import { portfolio_picture } from "../assets";
 import styles from "../style";
 
@@ -7,12 +7,8 @@ const NavBar = () => (
     <div className={`w-full flex flex-col-reverse md:flex-row items-center justify-between`}>
       {/* Text Section */}
       <div className="flex flex-col mt-4 md:mt-0">
-        <h1 className="font-poppins font-medium text-white text-[40px] md:text-[50px] md:text-left text-center">
-          Kostas Athanasiou
-        </h1>
-        <h2 className="text-gray-400 font-poppins text-[25px] md:text-[30px] md:text-left text-center">
-          Software Engineer | .Net Framework & Games Programmer
-        </h2>
+        <h1 className="font-poppins font-medium text-white text-[40px] md:text-[50px] md:text-left text-center">{personalInfo.name}</h1>
+        <h2 className="text-gray-400 font-poppins text-[25px] md:text-[30px] md:text-left text-center">{personalInfo.field}</h2>
         <div className="flex flex-row mt-[15px]">
           {businessLinks.map((link, index) => (
             <a 
@@ -21,7 +17,7 @@ const NavBar = () => (
               <img 
                 src={link.icon}
                 alt={link.name}
-                className={`w-[60px] h-[60px] md:w-[70px] md:h-[70px] mr-5 rounded-full ${styles.tweenScale}`}
+                className={`w-[60px] h-[60px] md:w-[70px] md:h-[70px] mr-5 ${styles.tweenScale}`}
               />
             </a>
           ))}
