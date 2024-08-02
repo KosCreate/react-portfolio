@@ -17,9 +17,7 @@ const NavBar = () => (
           {businessLinks.map((link, index) => (
             <a 
               key={index} 
-              href={link.url}
-              target="_blank"
-              rel="noopener noref">
+              href={link.url}>
               <img 
                 src={link.icon}
                 alt={link.name}
